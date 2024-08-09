@@ -1,0 +1,28 @@
+
+
+%chk=h3f.chk
+%mem=20GB
+%nprocshared=6
+# ump2/gen pseudo=read guess=mix scf=(maxcycle=500, yqc, tight) OPT(maxcycles=1000)
+
+Basis Set from basissetexchange.org:  Zr: cc-pVTZ-PP     F, H: cc-pVTZ
+
+0 1
+ Zr
+ H                  1            B1
+ H                  1            B2    2            A1
+ H                  1            B3    2            A2    3            D1    0
+ F                  1            B4    2            A3    3            D2    0
+
+   B1             1.75000000
+   B2             1.75000000
+   B3             1.75000000
+   B4             2.03000000
+   A1           109.47120255
+   A2           109.47123134
+   A3           109.47120255
+   D1          -119.99999260
+   D2           120.00001480
+
+
+
