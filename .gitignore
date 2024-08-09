@@ -3,3 +3,7 @@
 *.chk
 *.log
 *.com
+
+# Output Files
+*.dat
+*.xyz
