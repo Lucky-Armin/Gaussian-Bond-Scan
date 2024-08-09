@@ -7,3 +7,6 @@
 # Output Files
 *.dat
 *.xyz
+
+# Intermediate Files
+*.sh
